@@ -1,0 +1,93 @@
+.App{
+    text-align: center;
+}
+
+.navbar{
+    position: fixed;
+    right: 0;
+    display: flex;
+    background: rgb(56, 54, 78);
+    z-index: 2;
+}
+
+.nav-items{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.nav-list{
+    margin: 5px;
+}
+
+.nav-list:hover{
+    border-bottom: 3.5px solid yellow; 
+    border-radius: 1px;
+    cursor: pointer;
+    color: yellow;
+    transition: all 0.2s;
+}
+
+.active{
+    border-bottom: 3.5px solid yellow; 
+    border-radius: 1px;
+    color: yellow;
+    text-decoration: none;
+}
+
+.menu-bar{
+    display: none;
+}
+
+/* For extra small devices -small phones*/
+@media only screen and (max-width: 600px) {
+    .navbar{
+        position: fixed;
+        right: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .menu-bar{
+        display: block;
+        cursor: pointer;
+        transition: 0.3s ease;
+        z-index: 1;
+    }
+    .nav-items{
+        display: none;
+    }
+    .mob-menu{
+        display: block;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+        right: 4%;
+        gap: 0.1rem;
+        margin: 25px 10px 5px 10px;
+        padding: 30px;
+        border: 2px solid black;
+        border-radius: 15px;
+        background-color: black;
+        z-index: 2;
+    }
+}
+
+/* For small devices -Large phones*/
+@media only screen and (min-width: 600px) {
+}
+
+/* For medium devices - Tablets*/
+@media only screen and (min-width: 768px) {
+}
+
+/* For Large screens - laptops/desktops */
+@media only screen and (min-width: 992px) {
+}
+
+/* For extra Large screens - large laptops/desktops */
+@media only screen and (min-width: 1200px) {
+}

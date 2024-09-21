@@ -1,0 +1,100 @@
+.Skills-Content{
+    margin: 2px;
+    padding: 2px;
+    min-height: 90vh;
+    width: 95%;
+}
+
+.Skills-Content h1{
+    margin: 5px;
+    text-align: center;
+    color: yellow;
+    font-size: xx-large;
+}
+
+.Skills_Setup{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2px;
+    padding: 2px;
+}
+
+.Skill-level{
+    margin: 5px;
+    text-align: left;
+}
+
+.Skill-level > label{
+    margin-top: 20px;
+    padding-left: 12px;
+}
+
+.Skill-level > label:hover{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.Progress-Display{
+    width: 38rem;
+    height: 0.5rem;
+}
+
+.Skill-level > img{
+    height: 40px;
+    width: 50px;
+    padding: 2px;
+}
+
+.Tools{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Tools > img{
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+}
+
+.Tools >img:nth-last-child(1){
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.Skills-Sphere{
+    margin: 10px;
+}
+
+.tagcloud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagcloud--item{
+    color: rgb(229, 229, 42);
+}
+
+.tagcloud--item:hover{
+    color: rgb(4, 243, 4);
+    font-weight: 700;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+/* For extra small devices - small phones*/
+@media only screen and (max-width: 600px) {
+    .Progress-Display{
+        width: 20rem;
+        height: 0.5rem;
+    }
+    .Skills-Sphere{
+        margin: 0;
+    }
+    .tagcloud{
+        width: 200px;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,86 @@
+.About-Content{
+    margin: 2px;
+    padding: 2px;
+    min-height: 90vh;
+    width: 95%;
+}
+
+.About-Content h1{
+    margin: 5px;
+    text-align: center;
+    color: yellow;
+    font-size: xx-large;
+}
+
+.MyIntro{
+    margin: 5px;
+    padding: 3px;
+    color: black;
+    font-size: x-large;
+    font-weight: 800;
+    text-align: center;
+}
+
+.expertises{
+    margin: 15px;
+    padding: 5px;
+    color: black;
+    font-size: larger;
+    font-weight: 800;
+    text-align: start;
+}
+
+.expertises h3{
+    color: green;
+    border-bottom: 2px solid black;
+    margin:5px;
+}
+
+.expertise-list li{
+    margin: 2px;
+    padding: 5px;
+}
+
+.expertise-list ul{
+    list-style-type: square;
+}
+
+.expertise-list li:hover{
+    color: white;
+}
+
+.expertise-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.expertise-list > img{
+    max-width: 30%;
+    max-height: 30%;
+    border-radius: 15px;
+    margin: 35px;
+}
+
+/* For  small devices - phones*/
+@media only screen and (max-width: 768px) {
+    .About-Content{
+        width: 98%;
+    }
+    .MyIntro,.expertise-list{
+        text-align: left;
+        font-size: medium;
+        font-weight: 600;
+    }
+    .expertise-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .expertise-list > img{
+        max-width: 70%;
+        max-height: 50%;
+        border-radius: 15px;
+        margin: 25px;
+    }
+}
