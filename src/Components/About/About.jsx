@@ -1,4 +1,5 @@
 import React from 'react';
+import MERN_Image from '../../assets/mern-language-icon.png';
 
 function About() {
   return (
@@ -18,7 +19,7 @@ function About() {
             <li>Excellent Problem solving and debugging skills</li>
             <li>Collabrative team player with strong communication skills</li>
           </ul>
-          <img src='src/assets/mern-language-icon.png' alt='MERN'/>
+          <img src={MERN_Image} alt='MERN'/>
           </div>
         </div>
       </div>

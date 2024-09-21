@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import ProfileImage from '../../assets/ProfileImage.jpeg';
+import MERN_Image from '../../assets/mern-language-icon.png';
 
 function Home() {
   return (
@@ -37,7 +38,7 @@ function Home() {
             </div>
             <div className='domains'>
               <p>Currently working on</p>
-              <img src='src/assets/mern-language-icon.png' alt='MERN'/>
+              <img src={MERN_Image} alt='MERN'/>
             </div>
           </div>
           <a href="#" target='_blank'>Download Resume</a>

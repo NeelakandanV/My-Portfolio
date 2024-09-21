@@ -1,4 +1,8 @@
 import React from 'react';
+import eLibrary from '../../assets/eLibrary.png';
+import MiniUrl from '../../assets/MiniUrl.png';
+import MyCRM from '../../assets/MyCRM.png';
+import Stylestrap from '../../assets/Stylestrap.png';
 
 function Projects() {
   return (
@@ -13,27 +17,27 @@ function Projects() {
           <div className='Project-Data'>
             <div className='Projects-Source'>
               <p><b>MyCRM</b></p>
-              <img src="src/assets/MyCRM.png" alt="MyCRM"/>
+              <img src={MyCRM} alt="MyCRM"/>
               <a href="https://github.com/NeelakandanV/MyCrm-FE" target="_blank">Frontend Source Code</a> 
               <a href="https://mycrmportal.netlify.app/" target="_blank">Live Site</a>
               <a href="https://github.com/NeelakandanV/MyCrm-BE" target="_blank">Backend Source Code</a>
             </div>
             <div className='Projects-Source'>
               <p><b>Mini-Url</b></p>
-              <img src="src/assets/MiniUrl.png" alt="MiniUrl"/>
+              <img src={MiniUrl} alt="MiniUrl"/>
               <a href="https://github.com/NeelakandanV/Url-Shortener-FE" target="_blank">Frontend Source Code</a> 
               <a href="https://miniurlshortener.netlify.app/users/" target="_blank">Live Site</a>
               <a href="https://github.com/NeelakandanV/Url_Shortener-BE" target="_blank">Backend Source Code</a>
             </div>
             <div className='Projects-Source'>
               <p><b>eLibrary Management</b></p>
-              <img src="src/assets/eLibrary.png" alt="eLibrary"/>
+              <img src={eLibrary} alt="eLibrary"/>
               <a href="https://github.com/NeelakandanV/Day-32" target="_blank">Frontend Source Code</a> 
               <a href="https://elibrarymanage.netlify.app/" target="_blank">Live Site</a>
             </div>
             <div className='Projects-Source'>
               <p><b>Stylestrap</b></p>
-              <img src="src/assets/Stylestrap.png" alt="Stylestrap"/>
+              <img src={Stylestrap} alt="Stylestrap"/>
               <a href="https://github.com/NeelakandanV/Day25" target="_blank">Frontend Source Code</a> 
               <a href="https://trymystylestrap.netlify.app/" target="_blank">Live Site</a>
             </div>
