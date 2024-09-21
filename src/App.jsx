@@ -4,7 +4,7 @@ import './Components/Home/Home.css';
 import './Components/About/About.css';
 import './Components/Skills/Skills.css';
 import './Components/Projects/Projects.css';
-import './Components/Contact/Contact.css';
+import './Components/Contact/contact.css';
 import Home from './Components/Home/Home.jsx';
 import About from './Components/About/About.jsx';
 import Skills from './Components/Skills/Skills.jsx';
