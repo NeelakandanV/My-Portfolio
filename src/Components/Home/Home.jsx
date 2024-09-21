@@ -3,7 +3,6 @@ import { faFileLines } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import ProfileImage from '../assets/Profilemage.jpeg'
 
 function Home() {
   return (
@@ -44,7 +43,7 @@ function Home() {
           <a href="#" target='_blank'>View Resume</a>
         </div>
         <div className='Home-Image'>
-          <img src="src\assets\ProfileImage.jpeg" alt="Profile"/>
+          <img src="src/assets/ProfileImage.jpeg" alt="Profile"/>
         </div>       
       </div>
     </section>
