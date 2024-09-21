@@ -3,7 +3,7 @@ import { faFileLines } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import ProfileImage from '../assets/ProfileImage.jpeg';
+import ProfileImage from '../assets/Profilemage.jpeg'
 
 function Home() {
   return (
