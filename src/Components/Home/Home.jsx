@@ -43,7 +43,7 @@ function Home() {
           <a href="#" target='_blank'>View Resume</a>
         </div>
         <div className='Home-Image'>
-          <img src="src/assets/Portfolio-home.jpeg" alt="Profile"/>
+          <img src="../assets/Portfolio-home.jpeg" alt="Profile"/>
         </div>       
       </div>
     </section>
