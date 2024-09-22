@@ -21,13 +21,13 @@
 }
 
 .Skill-level{
-    margin: 5px;
+    margin: 3px;
     text-align: left;
 }
 
 .Skill-level > label{
     margin-top: 20px;
-    padding-left: 12px;
+    padding-left: 8px;
 }
 
 .Skill-level > label:hover{

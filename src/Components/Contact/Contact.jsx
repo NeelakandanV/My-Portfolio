@@ -30,6 +30,7 @@ function Contact() {
 
           <div className='Contact-Form'>
             <p>Feel free to connect with me!😊</p>
+            <p>Personal Email : <a href='mailto:hari0709venkatesan@gmail.com'>hari0709venkatesan@gmail.com</a></p>
             <form ref={form} onSubmit={sendEmail}>
               <label>Name</label>
               <input type="text" name="user_name" required/>

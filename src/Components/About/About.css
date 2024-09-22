@@ -15,18 +15,18 @@
 .MyIntro{
     margin: 5px;
     padding: 3px;
-    color: black;
-    font-size: x-large;
-    font-weight: 800;
+    color: white;
+    font-size: larger;
+    font-weight: 400;
     text-align: center;
 }
 
 .expertises{
     margin: 15px;
     padding: 5px;
-    color: black;
+    color: white;
     font-size: larger;
-    font-weight: 800;
+    font-weight: 400;
     text-align: start;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .expertise-list li:hover{
-    color: white;
+    color: black;
 }
 
 .expertise-list{
@@ -71,7 +71,6 @@
     .MyIntro,.expertise-list{
         text-align: left;
         font-size: medium;
-        font-weight: 600;
     }
     .expertise-list{
         display: flex;

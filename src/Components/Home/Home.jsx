@@ -1,5 +1,5 @@
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faFileLines } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFileLines } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
@@ -35,6 +35,7 @@ function Home() {
               <a href="https://www.linkedin.com/in/neelakandan0203/" target='_blank'><FontAwesomeIcon icon={faLinkedin} size="2xl" style={{color: "#29569e",}} /></a> 
               <a href="#Contact"><FontAwesomeIcon icon={faFileLines} size="2xl" style={{color: "#02a2a2",}} /></a>
               <a href="https://github.com/NeelakandanV/" target='_blank'><FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#000000",}} /></a>
+              <a href="mailto:hari0709venkatesan@gmail.com" target='_blank'><FontAwesomeIcon icon={faEnvelope} size="2xl" /></a>
             </div>
             <div className='domains'>
               <p>Currently working on</p>

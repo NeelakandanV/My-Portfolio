@@ -75,7 +75,7 @@
     max-height: 150px;
 }
 
-.Home-Text a:nth-child(5){
+.Home-Text >a:nth-child(5){
     color: white;
     text-decoration: none;
     background: black;
@@ -85,12 +85,12 @@
     border-radius: 15px;
 }
 
-.Home-Text a:nth-child(5):hover{
+.Home-Text >a:nth-child(5):hover{
     background: linear-gradient(to right,rgb(118, 16, 214),rgb(219, 10, 132));
     border: 4px solid white;
 }
 
-.Home-Text a:nth-child(6){
+.Home-Text >a:nth-child(6){
     color: white;
     text-decoration: none;
     background: black;
@@ -100,7 +100,7 @@
     border-radius: 15px;
 }
 
-.Home-Text a:nth-child(6):hover{
+.Home-Text >a:nth-child(6):hover{
     background: linear-gradient(to right,rgb(118, 16, 214),rgb(219, 10, 132));
     border: 4px solid white;
 }
@@ -124,10 +124,10 @@
         margin: 2px;
         padding: 1px;
     }
-    .Home-Text a:nth-child(5){
+    .Home-Text >a:nth-child(5){
         display: block;
     }
-    .Home-Text a:nth-child(6){
+    .Home-Text >a:nth-child(6){
         display: block;
     }
 }
@@ -140,10 +140,10 @@
         justify-content: space-evenly;
         align-items: center;
     }
-    .Home-Text a:nth-child(5){
+    .Home-Text >a:nth-child(5){
         display: block;
     }
-    .Home-Text a:nth-child(6){
+    .Home-Text >a:nth-child(6){
         display: block;
     }
 }
@@ -156,10 +156,10 @@
         justify-content: space-evenly;
         align-items: center;
     }
-    .Home-Text a:nth-child(5){
+    .Home-Text >a:nth-child(5){
         display: block;
     }
-    .Home-Text a:nth-child(6){
+    .Home-Text >a:nth-child(6){
         display: block;
     }
 }
@@ -172,10 +172,10 @@
         justify-content: space-evenly;
         align-items: center;
     }
-    .Home-Text a:nth-child(5){
+    .Home-Text >a:nth-child(5){
         display: block;
     }
-    .Home-Text a:nth-child(6){
+    .Home-Text >a:nth-child(6){
         display: block;
     }
 }
@@ -188,10 +188,10 @@
         justify-content: space-evenly;
         align-items: center;
     }
-    .Home-Text a:nth-child(5){
+    .Home-Text >a:nth-child(5){
         display: inline;
     }
-    .Home-Text a:nth-child(6){
+    .Home-Text >a:nth-child(6){
         display: inline;
     }
 }
