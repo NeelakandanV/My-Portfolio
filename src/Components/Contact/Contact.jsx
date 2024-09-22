@@ -42,10 +42,10 @@ function Contact() {
               <input className='send-btn' type="submit" value="Send" />
             </form>
         </div>
-        <div className='Footer'>
+        <div className='Footer-Cont'>
           <p>&#169;All Rights Reserved💙Neelakandan Venkatesan</p>
         </div>
-        </div>
+      </div>
     </section>
   )
 }

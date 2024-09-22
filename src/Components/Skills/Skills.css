@@ -16,18 +16,18 @@
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 2px;
-    padding: 2px;
+    margin: 1px;
+    padding: 1px;
 }
 
 .Skill-level{
-    margin: 3px;
+    margin: 1px;
     text-align: left;
 }
 
 .Skill-level > label{
     margin-top: 20px;
-    padding-left: 8px;
+    padding-left: 3px;
 }
 
 .Skill-level > label:hover{
@@ -87,7 +87,7 @@
 /* For extra small devices - small phones*/
 @media only screen and (max-width: 600px) {
     .Progress-Display{
-        width: 20rem;
+        width: 17rem;
         height: 0.5rem;
     }
     .Skills-Sphere{

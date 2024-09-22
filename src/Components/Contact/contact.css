@@ -1,11 +1,14 @@
 .Contact-Content{
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    gap: 0.3rem;
     margin: 2px;
     padding: 2px;
-    width: 95%;
+    width: 100%;
 }
 
 .Contact-Content h1{
@@ -17,10 +20,11 @@
 
 .Contact-Form{
     margin: 20px;
-    border: none;
+    border: 1px;
     padding: 10px;
     height: 75vh;
     width: 60%;
+    z-index: 2;
 }
 
 .Contact-Form > form{
@@ -36,6 +40,7 @@
     font-size: large;
     font-family: sans-serif;
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 form >label{
@@ -45,7 +50,7 @@ form >label{
 form input{
     padding: 3px;
     width: 50vw;
-    height: 5vh;
+    height: 4vh;
     border-radius: 10px;
     border: none;
     background-color: rgb(103, 100, 137);
@@ -56,7 +61,7 @@ form input{
 form textarea{
     padding: 3px;
     width: 50vw;
-    height: 25vh;
+    height: 22vh;
     border-radius: 10px;
     border: none;
     background-color: rgb(103, 100, 137);
@@ -65,7 +70,7 @@ form textarea{
 }
 
 .send-btn{
-    margin: 6px;
+    margin: 7px;
     border: 2px solid black;
     padding: 5px;
     color: white;
@@ -75,20 +80,22 @@ form textarea{
     border-radius: 15px;
 }
 
-.Footer{
+.Footer-Cont{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin-top: auto;
     border-top: 1px solid whitesmoke;
     padding: 5px;
     bottom: 0%;
+    z-index: 1;
 }
 
 @media only screen and (max-width: 1200px) {
     .Contact-Form{
         margin: 10px;
         padding: 10px;
-        height: 75vh;
+        height: 85vh;
         width: 100%;
     }
     form input{
