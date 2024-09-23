@@ -88,7 +88,7 @@ function Skills() {
               <ProgressBar className='Progress-Display' animated now={70} />
               <img src={AWS} alt='AWS'/>
               <label>AWS</label>
-              <ProgressBar className='Progress-Display' animated now={60} />
+              <ProgressBar className='Progress-Display' animated now={35} />
               <img src={MaterialUi} alt='MaterialUI'/>
               <label>MaterialUI</label>
               <ProgressBar className='Progress-Display' animated now={80} />
