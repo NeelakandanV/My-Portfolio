@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import ProfileImage from '../../assets/ProfileImage.jpeg';
+import ProfilePhoto from '../../assets/ProfilePhoto.png';
 import MERN_Image from '../../assets/mern-language-icon.png';
 
 function Home() {
@@ -46,7 +47,7 @@ function Home() {
           <a href="https://neelakandanresume.netlify.app/" target='_blank'>View Resume</a>
         </div>
         <div className='Home-Image'>
-          <img src={ProfileImage} alt="Profile"/>
+          <img src={ProfilePhoto} alt="Profile"/>
         </div>       
       </div>
     </section>
