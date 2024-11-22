@@ -43,7 +43,7 @@ function Home() {
               <img src={MERN_Image} alt='MERN'/>
             </div>
           </div>
-          <a href="https://drive.google.com/uc?export=download&id=1PeotzKN37iGfLqyETQntkxR4u302K618" target='_blank'>Download Resume</a>
+          <a href="https://drive.google.com/uc?export=download&id=1ExqdyN_uBD1s5peXUbFFqJQW1aCZvBJp" target='_self'>Download Resume</a>
           <a href="https://neelakandanresume.netlify.app/" target='_blank'>View Resume</a>
         </div>
         <div className='Home-Image'>
