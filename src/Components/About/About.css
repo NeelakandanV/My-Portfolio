@@ -8,14 +8,13 @@
 .About-Content h1{
     margin: 5px;
     text-align: center;
-    color: yellow;
+    color: #8A00C4;
     font-size: xx-large;
 }
 
 .MyIntro{
     margin: 5px;
     padding: 3px;
-    color: white;
     font-size: larger;
     font-weight: 400;
     text-align: center;
@@ -24,14 +23,13 @@
 .expertises{
     margin: 15px;
     padding: 5px;
-    color: white;
     font-size: larger;
     font-weight: 400;
     text-align: start;
 }
 
 .expertises h3{
-    color: green;
+    color: #8A00C4;
     border-bottom: 2px solid black;
     margin:5px;
 }
@@ -43,10 +41,6 @@
 
 .expertise-list ul{
     list-style-type: square;
-}
-
-.expertise-list li:hover{
-    color: black;
 }
 
 .expertise-list{

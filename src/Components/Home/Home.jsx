@@ -25,7 +25,7 @@ function Home() {
                 ]}
                 wrapper="span"
                 speed={50}
-                style={{ fontSize: '1em', display: 'inline-block' ,color:"yellowgreen" }}
+                style={{ fontSize: '1em', display: 'inline-block' ,color:"#1F51FF" }}
                 repeat={Infinity}
               />
             }

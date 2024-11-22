@@ -8,7 +8,7 @@
 .Projects-Content h1{
     margin: 5px;
     text-align: center;
-    color: yellow;
+    color: #8A00C4;
     font-size: xx-large;
 }
 
@@ -45,24 +45,19 @@
     border: 1px solid black;
     height: 350px;
     width: 280px;
-    background: white;
+    background: rgb(221, 231, 252);
     border-radius: 15px;
     transition: all 0.5s;
 }
 
 .Projects-Source:hover{
     transform: translateY(-30px);
-    background: black;
-    color: white;
     cursor: pointer;
 }
 
 .Projects-Source >p{
     padding: 2px;
     font-size: 25px;
-    background: linear-gradient(to right,rgb(219, 10, 132),rgb(10, 177, 219));
-    background-clip: text;
-    color: transparent;
 }
 
 .Projects-Source >img{
@@ -78,34 +73,11 @@
     border-radius: 18px;
     padding: 5px;
     text-decoration: none;
-    color: black;
-}
-
-.Projects-Source > a:nth-child(3){
-    background: linear-gradient(to right,rgb(95, 150, 95),rgb(114, 47, 191));
-}
-
-.Projects-Source > a:nth-child(3):hover{
-    background: linear-gradient(to right,rgb(118, 16, 214),rgb(219, 10, 132));
+    background: black;
     color: white;
 }
-
-.Projects-Source > a:nth-child(4){
-    background: linear-gradient(to right,rgb(212, 59, 59),rgb(114, 42, 165));
-}
-
-.Projects-Source > a:nth-child(4):hover{
-    background: linear-gradient(to right,rgb(220, 12, 161),rgb(146, 219, 10));
-    color: white;
-}    
-
-.Projects-Source > a:nth-child(5){
-    background: linear-gradient(to right,rgb(223, 131, 25),rgb(151, 44, 151));
-}
-
-.Projects-Source > a:nth-child(5):hover{
-    background: linear-gradient(to right,rgb(151, 166, 13),rgb(10, 177, 219));
-    color: white;
+.Projects-Source > a:hover{
+    background-color: #8A00C4;
 }
 
 

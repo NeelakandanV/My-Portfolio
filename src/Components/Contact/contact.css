@@ -14,7 +14,7 @@
 .Contact-Content h1{
     margin: 5px;
     text-align: center;
-    color: yellow;
+    color: #8A00C4;
     font-size: xx-large;
 }
 
@@ -78,6 +78,10 @@ form textarea{
     height: 5vh;
     background: black;
     border-radius: 15px;
+}
+
+.send-btn:hover{
+    background: #1F51FF;
 }
 
 .Footer-Cont{

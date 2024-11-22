@@ -72,7 +72,7 @@ function Navbar() {
             </li>
         </ul>
         <div className='menu-bar' onClick={()=>MobileNav()}>
-            {toggle ?<FontAwesomeIcon icon={faXmark} style={{color: "#FFD43B",}} size="2xl" />:<FontAwesomeIcon icon={faBars} size="2xl" style={{color: "#FFD43B",}} />}
+            {toggle ?<FontAwesomeIcon icon={faXmark} style={{color: "#8A00C4",}} size="2xl" />:<FontAwesomeIcon icon={faBars} size="2xl" style={{color: "#8A00C4",}} />}
         </div>
     </nav>
   )

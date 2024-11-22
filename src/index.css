@@ -9,12 +9,12 @@
 
 body{
     font-family: "Poppins",sans-serif;
-    background-color: rgb(56, 54, 78);
-    color: white;
+    background-color: rgb(233, 241, 250);;
+    color: black;
 }
 
 section{
-    min-height: 100vh;
+    min-height: 98vh;
     display: flex;
     justify-content: center;
     align-items: center;
