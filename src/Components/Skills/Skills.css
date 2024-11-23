@@ -23,48 +23,30 @@
 .Skill-level{
     margin: 1px;
     text-align: left;
-}
-
-.Skill-level > label{
-    margin-top: 20px;
-    padding-left: 3px;
-}
-
-.Skill-level > label:hover{
-    font-size: x-large;
-    font-weight: 600;
-}
-
-.Progress-Display{
-    width: 38rem;
-    height: 0.5rem;
-}
-
-.Skill-level > img{
-    height: 40px;
-    width: 50px;
-    padding: 2px;
-}
-
-.Tools{
     display: flex;
     flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
 }
 
-.Tools > img{
+
+.Skill-level > img{
+    border: 1px solid rgb(25, 24, 24);
+    background: rgb(221, 231, 252);
+    padding: 5px;
+    border-radius: 15px;
     height: 120px;
-    width: 120px;
-    margin: 10px;
+    width: 95px;
 }
 
-.Tools >img:nth-last-child(1){
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
+.Skill-level >img:hover{
+    transform: skew(15deg,-15deg);
+    transition: 0.35s ease;
+    cursor: pointer;
 }
 
 .Skills-Sphere{
-    margin: 10px;
+    margin: 7px;
 }
 
 .tagcloud{
@@ -86,10 +68,6 @@
 
 /* For extra small devices - small phones*/
 @media only screen and (max-width: 600px) {
-    .Progress-Display{
-        width: 17rem;
-        height: 0.5rem;
-    }
     .Skills-Sphere{
         margin: 0;
     }
