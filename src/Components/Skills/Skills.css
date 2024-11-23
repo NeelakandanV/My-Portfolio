@@ -51,7 +51,7 @@
 
 .tagcloud{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -72,7 +72,7 @@
         margin: 0;
     }
     .tagcloud{
-        width: 200px;
+        width: 170px;
         z-index: 1;
     }
 }
