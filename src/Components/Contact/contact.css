@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 50vh;
     gap: 0.3rem;
     margin: 2px;
     padding: 2px;
@@ -22,7 +22,7 @@
     margin: 20px;
     border: 3px outset rgb(228, 222, 222);
     padding: 10px;
-    min-height: 60vh;
+    height: fit-content;
     width: 60%;
     z-index: 1;
 }
@@ -88,8 +88,8 @@ form textarea{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: auto;
-    border-top: 1px solid rgb(22, 21, 21);
+    margin-top: 20px;
+    border-top: 2px solid rgb(22, 21, 21);
     padding: 5px;
     bottom: 0%;
 }
