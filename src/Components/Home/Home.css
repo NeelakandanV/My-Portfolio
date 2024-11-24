@@ -1,7 +1,7 @@
 .Home-Content{
     margin: 2px;
     padding: 2px;
-    min-height: 90vh;
+    min-height: fit-content;
     min-width: 98%;
 }
 

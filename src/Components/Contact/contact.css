@@ -98,7 +98,7 @@ form textarea{
     .Contact-Form{
         margin: 10px;
         padding: 10px;
-        height: 85vh;
+        height: fit-content;
         width: 100%;
     }
     .Contact-Content h1{
