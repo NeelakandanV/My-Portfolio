@@ -6,7 +6,7 @@
 }
 
 .Projects-Content h1{
-    margin: 5px;
+    margin-top: 50px;
     text-align: center;
     color: #8A00C4;
     font-size: xx-large;
@@ -83,6 +83,9 @@
 
 
 @media only screen and (max-width: 720px) {
+    .Projects-Content h1{
+        margin: 5px;
+    }
     .Project-Data{
         margin: 5px;
         display: flex;

@@ -6,7 +6,7 @@
 }
 
 .Skills-Content h1{
-    margin: 5px;
+    margin-top: 50px;
     text-align: center;
     color: #8A00C4;
     font-size: xx-large;
@@ -74,6 +74,9 @@
     .tagcloud{
         width: 170px;
         z-index: 1;
+    }
+    .Skills-Content h1{
+        margin: 5px;
     }
     .Skill-level{
         gap: 0.3rem;

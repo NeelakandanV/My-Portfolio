@@ -6,7 +6,7 @@
 }
 
 .About-Content h1{
-    margin: 5px;
+    margin-top: 50px;
     text-align: center;
     color: #8A00C4;
     font-size: xx-large;
@@ -61,6 +61,9 @@
 @media only screen and (max-width: 768px) {
     .About-Content{
         width: 98%;
+    }
+    .About-Content h1{
+        margin: 5px;
     }
     .MyIntro,.expertise-list{
         text-align: left;
