@@ -14,7 +14,7 @@ body{
 }
 
 section{
-    min-height: 98vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;

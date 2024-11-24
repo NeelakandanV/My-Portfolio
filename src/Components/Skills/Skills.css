@@ -75,4 +75,8 @@
         width: 170px;
         z-index: 1;
     }
+    .Skill-level{
+        gap: 0.3rem;
+        justify-content: center;
+    }
 }
