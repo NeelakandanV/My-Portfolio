@@ -3,6 +3,9 @@ import MiniUrl from '../../assets/MiniUrl.png';
 import MyCRM from '../../assets/MyCRM.png';
 import Stylestrap from '../../assets/Stylestrap.png';
 import Sparkz from '../../assets/Sparkz.png';
+import ICYEdtech from '../../assets/ICYEdtech.png';
+import HitTheHit from '../../assets/HitTheHit.png';
+import TicTacToe from '../../assets/TicTacToe.png';
 
 function Projects() {
   return (
@@ -37,10 +40,29 @@ function Projects() {
               <a href="https://github.com/NeelakandanV/Url_Shortener-BE" target="_blank">Backend Source Code</a>
             </div>
             <div className='Projects-Source'>
+              <p><b>Edutech</b></p>
+              <img src={ICYEdtech} alt="ICYEdtech"/>
+              <a href="https://github.com/NeelakandanV/Day-42" target="_blank">Frontend Source Code</a> 
+              <a href="https://icyedutech.netlify.app/" target="_blank">Live Site</a>
+              <a href="https://github.com/NeelakandanV/Day-41" target="_blank">Backend Source Code</a>
+            </div>
+            <div className='Projects-Source'>
               <p><b>Stylestrap</b></p>
               <img src={Stylestrap} alt="Stylestrap"/>
               <a href="https://github.com/NeelakandanV/Day25" target="_blank">Frontend Source Code</a> 
               <a href="https://trymystylestrap.netlify.app/" target="_blank">Live Site</a>
+            </div>
+            <div className='Projects-Source'>
+              <p><b>Tic Tac Toe</b></p>
+              <img src={TicTacToe} alt="TicTacToe"/>
+              <a href="https://github.com/NeelakandanV/Tic-Tac-Toe" target="_blank">Source Code</a> 
+              <a href="https://xotoe.netlify.app/" target="_blank">Play Time</a>
+            </div>
+            <div className='Projects-Source'>
+              <p><b>Hit The Hit</b></p>
+              <img src={HitTheHit} alt="HitTheHit"/>
+              <a href="https://github.com/NeelakandanV/Hit-the-Rat-Game" target="_blank">Source Code</a> 
+              <a href="https://hitthehit.netlify.app/" target="_blank">Play Time</a>
             </div>
           </div>
         </div>
