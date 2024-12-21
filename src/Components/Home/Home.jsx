@@ -43,8 +43,8 @@ function Home() {
               <img src={MERN_Image} alt='MERN'/>
             </div>
           </div>
-          <a href="https://drive.google.com/uc?export=download&id=1CnLud3KsQ8pYx_APJi9xB1pWt3E-wbsh" target='_self'>Download Resume</a>
-          <a href="https://drive.google.com/file/d/1CnLud3KsQ8pYx_APJi9xB1pWt3E-wbsh/view?usp=sharing" target='_blank'>View Resume</a>
+          <a href="https://drive.google.com/uc?export=download&id=1aM9m1uQMOtaeDc4YJpoyH3FfKk0YQM1w" target='_self'>Download Resume</a>
+          <a href="https://drive.google.com/file/d/1aM9m1uQMOtaeDc4YJpoyH3FfKk0YQM1w/view?usp=sharing" target='_blank'>View Resume</a>
         </div>
         <div className='Home-Image'>
           <img src={ProfilePhoto} alt="Profile"/>
